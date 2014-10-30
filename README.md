@@ -8,6 +8,7 @@ Build and Start APP
 - mvn jetty:run-war
 
 XML
+- http://localhost:8080/rest/services/books [default]
 - http://localhost:8080/rest/services/books.xml
 
 JSON
