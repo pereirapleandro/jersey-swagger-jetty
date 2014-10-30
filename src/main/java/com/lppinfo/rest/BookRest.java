@@ -6,17 +6,14 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import com.lppinfo.service.BookService;
 
-@Path("/services")
-public class HelloService {
+@Path("/book")
+public class BookRest {
 
 	@GET
-	@Path("/books")
+	@Path("/list")
 	@Produces({ MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON })
 	public BookService getBooksXml() {
-
-		BookService books = new BookService();
-		
-		return books;
+		return new BookService();
 	}
 
 }
