@@ -1,15 +1,17 @@
 lppinfo-rest-template
 =====================
 
-Template of rest application using maven, jetty plugin and resteasy.
+Template of rest application using maven (manager), jetty (container), jersey (rest) and swagger (documentation).
 
 Build and Start APP
 - mvn clean install package
 - mvn jetty:run-war
 
-XML
-- http://localhost:8080/rest/book/list [default]
-- http://localhost:8080/rest/book/list.xml
+Swagger UI
+- http://localhost:8080/
 
-JSON
-- http://localhost:8080/rest/book/list.json
+Rest - List Books
+- http://localhost:8080/rest/book/
+
+Rest - Get Book by ID
+- http://localhost:8080/rest/book/123
