@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.lppinfo.rest.template</groupId>
-	<artifactId>lppinfo-rest-template</artifactId>
+	<groupId>jersey.swagger.jetty</groupId>
+	<artifactId>jersey-swagger-jetty</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>lppinfo-rest-template</name>
+	<name>jersey-swagger-jetty</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
