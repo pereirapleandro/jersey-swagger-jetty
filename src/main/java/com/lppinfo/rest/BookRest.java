@@ -44,7 +44,10 @@ public class BookRest {
 				return Response.ok().entity(book).build();
 			}
 		}
-		return Response.status(404).entity(new NotFoundException(404, "Book not found for id: " + id)).build();
+		return Response
+				.status(Response.Status.NOT_FOUND)
+				.entity(new NotFoundException(Response.Status.NOT_FOUND.getStatusCode(), "Book not found for id: " + id))
+				.build();
 	}
 
 }
