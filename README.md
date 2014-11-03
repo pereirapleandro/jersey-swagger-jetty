@@ -1,4 +1,4 @@
-lppinfo-rest-template
+jersey-swagger-jetty
 =====================
 
 Template of rest application using maven (manager), jetty (container), jersey (rest) and swagger (documentation).
